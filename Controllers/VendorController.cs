@@ -27,8 +27,6 @@ public class VendorController : ControllerBase
             return NotFound("Vendor Not Found");
         }
         
-        
-        
         return Ok(vendor);
         
     }

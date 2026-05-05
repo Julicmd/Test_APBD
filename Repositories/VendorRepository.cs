@@ -32,6 +32,8 @@ public class VendorRepository : IVendorRepository
                 
                 var ProductList = new Dictionary<int, ProductResponse>();
                 
+                //await using (var  vendorCommand = new SqlCommand(
+                   //              "SELECT * FROM VendorProducts", connection)
 
                 return new VendorProductResponse
                 {
